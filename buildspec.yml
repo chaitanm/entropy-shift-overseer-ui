@@ -16,10 +16,12 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the code with webpack
-      - webpack
+      - ./node_modules/.bin/webpack
   post_build:
     commands:
       - echo Build completed on `date`
 artifacts:
   files:
     - /src/*
+    - package.json
+    - webpack.config.js
