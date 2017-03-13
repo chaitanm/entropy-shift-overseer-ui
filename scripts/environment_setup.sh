@@ -18,4 +18,4 @@ sudo curl --silent --location https://rpm.nodesource.com/setup_7.x | sudo bash -
 
 yum -y install nodejs
 
-sudo npm install http-server -g
+sudo npm install connect serve-static
