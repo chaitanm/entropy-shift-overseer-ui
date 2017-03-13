@@ -1,0 +1,25 @@
+version: 0.1
+
+environment_variables:
+  plaintext:
+    AUTHOR: "CHAITANYA_MEESALA"
+
+phases:
+  install:
+    commands:
+      - echo Install started on `date` 
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies.
+      - npm install
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling the code with webpack
+      - webpack
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - /src/*
