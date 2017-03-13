@@ -25,5 +25,6 @@ artifacts:
     - src/*
     - scripts/*
     - package.json
+    - appspec.yml
     - webpack.config.js
     - node_modules/*
