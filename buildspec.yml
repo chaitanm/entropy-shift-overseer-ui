@@ -23,5 +23,7 @@ phases:
 artifacts:
   files:
     - src/*
+    - scripts/*
     - package.json
     - webpack.config.js
+    - node_modules/*
