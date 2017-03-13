@@ -17,3 +17,5 @@ sudo ./install auto
 sudo curl --silent --location https://rpm.nodesource.com/setup_7.x | sudo bash -
 
 yum -y install nodejs
+
+sudo npm install -g webpack-dev-server

@@ -4,7 +4,7 @@
   "description": "This is the UI handling Authentication, Authorization and User Basic Profile",
   "main": "module1.js",
   "scripts": {
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline",
+    "dev":  "webpack-dev-server --content-base src --inline",
     "prod": "NODE_ENV=production ./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
