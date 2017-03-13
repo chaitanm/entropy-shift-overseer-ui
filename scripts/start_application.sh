@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sudo node server.js &
+sudo node /entropyshift/codedeploy/server.js &

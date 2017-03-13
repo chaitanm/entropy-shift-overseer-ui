@@ -16,6 +16,9 @@ sudo ./install auto
 
 sudo curl --silent --location https://rpm.nodesource.com/setup_7.x | sudo bash -
 
-yum -y install nodejs
+sudo yum -y install nodejs
 
 sudo npm install connect serve-static
+
+sudo vim /entropyshift/codedeploy/server.js
+
